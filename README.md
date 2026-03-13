@@ -1,6 +1,6 @@
 Modern GRC Case Studies from Real‑World Cyber & Risk Events
 📌 Overview
-This repository curates real cybersecurity, technology, and risk events and transforms them into practical GRC case studies. Each case study examines how emerging threats — including AI‑driven attacks, evolving adversary behaviors, and systemic risk patterns — challenge traditional governance, risk, and compliance models.
+This repository curates real cybersecurity, technology, and risk events and transforms them into practical GRC case studies. Each case study examines how emerging threats, including AI‑driven attacks, evolving adversary behaviors, and systemic risk patterns, challenge traditional governance, risk, and compliance models.
 The goal is to help risk leaders, security teams, and decision‑makers understand how contemporary threats reshape risk assumptions and to support more informed, risk‑aligned decisions.
 
 🎯 Purpose
