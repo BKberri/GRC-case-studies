@@ -1,0 +1,8 @@
+﻿ID,ACTION ITEM,OWNER,PRIORITY,START DATE,END DATE,STATUS
+PM-01,Identify all Hikvision/Rockwell Assets via Nmap/Passive Discovery       ,IT Ops,CRITICAL,3/7/2026,3/8/2026,COMPLETED
+PM-02,Isolate vulnerable OT assets from Internet-facing VLANs,Network Sec,HIGH,3/8/2026,3/9/2026,IN-PROGRESS
+PM-03,Apply Firmware Patch v.4.x to Hikvision Fleet,Field Ops,CRITICAL,3/9/2026,3/14/2026,NOT STARTED
+PM-04,Update Rockwell Credential Store to use MFA/Encrypted Vault,Identity Lead,HIGH,3/9/2026,3/16/2026,IN-PROGRESS
+PM-05,Final Audit and Vulnerability Scan Validation,GRC Analyst,MEDIUM,3/17/2026,3/18/2026,NOT STARTED
+PM-06,Executive Risk Report & Closure of Incident,GRC Lead,LOW,3/19/2026,3/20/2026,NOT STARTED
+,,,,,,
