@@ -265,6 +265,27 @@ migration, administration of justice, democratic processes
 
 ---
 
+## Payment & Retail Compliance Frameworks
+
+### PCI-DSS v4.0
+| Field | Details |
+|---|---|
+| **Issuing Body** | PCI Security Standards Council |
+| **Current Version** | v4.0 — fully effective March 2025 |
+| **URL** | https://www.pcisecuritystandards.org |
+| **Domain** | Payment card data security for any organization storing, processing, or transmitting cardholder data |
+| **Structure** | 12 core requirements organized into 6 control objectives |
+| **Use in This Program** | Cross-referenced for cloud/e-commerce findings that intersect with payment-card-data scope |
+| **Who Uses It** | Merchants, payment processors, service providers, and any entity in the card-payment ecosystem |
+
+**Key Requirements Referenced:**
+- Requirement 6.3.3 — Patch and update critical/high-severity vulnerabilities within defined timeframes
+- Requirement 11.3 — Perform internal and external vulnerability scanning
+
+**Added to this program:** 2026-06-08 — first referenced in the *2026-06-CISA-KEV-Magento-Mirasvit* case study (Cloud-Security), where an actively exploited unauthenticated RCE in a Magento/Adobe Commerce extension placed payment-card-scoped infrastructure at risk. PCI-DSS was mapped alongside the standard NIST/ISO/CIS stack to demonstrate that e-commerce-platform findings carry payment-industry compliance obligations the core IT/OT framework track does not capture on its own — and to provide audit-ready evidence for any QSA inquiry into the incident-response and patch-management timeline.
+
+---
+
 ## Framework Relationship Map
 
 ```
