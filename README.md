@@ -116,6 +116,7 @@ Each case study follows a standard structure:
 
 *3 cases (Oracle PeopleSoft, LiteLLM AI Gateway, MSRC Patch Tuesday Wormable Kernel) are intentionally cross-filed under two categories per the program's multi-category duplication policy — each carries its own documented rationale rather than being an accidental copy. Folder counts above include both filings; the 20 figure is the unique-case count. New case studies added weekly as part of the intelligence monitoring cycle.*
 
+<!-- Featured Case Studies — last manually reviewed: 2026-06-30 -->
 ### Featured Case Studies
 
 | Case Study | Date | Threat Category | Frameworks |
