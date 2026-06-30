@@ -1,42 +1,56 @@
-Case Study: Rapid Response Governance for CISA KEV Exploitation
+# Case Study: CISA KEV 2026-03 — Hikvision & Rockwell Automation Dual Listing
+## GRC Intelligence Program — Blaise Kingko
+**Category:** IT-OT-Threats | **Sub-Category:** OT/IoT Convergence, Physical Security Infrastructure
+**Run Date:** 2026-03-10
 
-Project Focus: Enterprise Risk Management (ERM), OT/IT Convergence, and Compliance Lifecycle
+---
 
-1. Professional Overview
+## Case Overview
 
-This case study demonstrates a high-level response to the March 2026 CISA Known Exploited Vulnerabilities (KEV) update. It focuses on two critical vulnerabilities (CVSS 9.8) in Hikvision and Rockwell Automation systems.
+On March 6, 2026, CISA added two critical (CVSS 9.8) vulnerabilities to the Known Exploited Vulnerabilities catalog in the same listing cycle: CVE-2017-7921, an authentication bypass in Hikvision IP cameras, and CVE-2021-22681, a credential exposure flaw in Rockwell Automation PLCs. Both were confirmed under active exploitation.
 
-As a Senior GRC professional, my role in this scenario is to translate technical threat intelligence into a prioritized business remediation strategy, ensuring alignment with NIST 800-53 and ISO 27001.
+This case is the earliest entry in this program and the one that established its OT/IT convergence lens: the root cause enabling both findings to persist for years was not absence of a patch, but an **asset visibility gap** — these devices sat outside the standard IT vulnerability scanning and EDR footprint entirely. The remediation path required exposure management (validating real-world reachability) ahead of, and in addition to, conventional patching.
 
-2. Artifacts Included
+**CVSS v3.1:** 9.8 (Critical) — both CVEs
+**Risk Rating (this program):** Critical
 
-Executive Summary: A board-level briefing on the current threat landscape.
+---
 
-Risk Assessment: Deep-dive analysis into architectural vulnerabilities and residual risk.
+## Artifacts Included
 
-Threat Intelligence Summary: Contextual analysis of active exploitation in the wild.
+| File | Description |
+|---|---|
+| `01_Threat_Intelligence.md` | CVE details, threat actor profiling, weaponization timeline |
+| `02_Risk_Assessment.md` | NIST SP 800-30 risk scoring; per-CVE architectural analysis |
+| `03_BIA.md` | Quantified financial impact; life-safety and reputational impact |
+| `04_Control_Mapping.md` | NIST 800-53 / ISO 27001 / CIS Controls mapping; asset-visibility gap analysis |
+| `05_Executive_Summary.md` | Board/Risk Committee brief; accelerated remediation SLA recommendation |
+| `06_POAM_Remediation.md` | 6-milestone remediation plan, asset discovery through closure validation |
 
-Business Impact Analysis (BIA): Quantification of potential operational and financial loss.
+---
 
-Control Mapping Matrix: Cross-framework alignment (NIST, ISO, CIS).
+## Risk Register Reference
 
-POA&M / Remediation Plan: A project-managed timeline for risk mitigation.
+This case predates the program's current Risk Register ID scheme (RR-0xx, introduced with later 2026-06 runs) and is tracked narratively in this case study rather than as a numbered register entry.
 
-3. Key Insights:
+---
 
-OT/IT Visibility Gap: Identified that 40% of physical security assets (Hikvision) were missing from the primary CMDB, triggering a gap in standard vulnerability scanning.
+## Key Frameworks Applied
 
-Supply Chain Risk: Addressed the geopolitical implications of Hikvision (NDAA compliance) alongside technical vulnerabilities.
+- NIST SP 800-30 Rev. 1 (risk assessment methodology)
+- NIST SP 800-53 Rev 5 (RA-5, AC-2, SI-2, SC-7, CM-8, CA-7)
+- ISO/IEC 27001:2022 (Annex A.9, A.12, A.13, A.18)
+- CIS Controls v8 (Controls 1, 6, 7, 12, 18)
+- BOD 22-01 (CISA Known Exploited Vulnerabilities directive)
 
-Life-Safety Prioritization: Prioritized Rockwell Automation remediation based on the potential for physical harm in manufacturing environments.
+## GRC Skills Demonstrated
 
-4. Skills used in this case study
+- OT/IT convergence risk analysis
+- Asset visibility gap identification (Exposure Management vs. Vulnerability Management)
+- Supply chain / geopolitical risk framing (NDAA-relevant vendor considerations)
+- Life-safety risk prioritization in industrial control environments
+- Cross-framework control mapping and executive risk communication
 
-Regulatory Compliance (BOD 22-01) 
-Enterprise Risk Management 
-Stakeholder Communication 
-Cross-Functional Leadership 
-NIST Cybersecurity Framework (CSF)
-ISO-27001/ISO-27002
-CIS critical controls
-NIST RMF suit
+---
+
+*GRC Intelligence Program | Case built: 2026-03-10*

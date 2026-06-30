@@ -24,25 +24,21 @@ This repository is where I apply that thinking continuously — tracking live th
 ```
 GRC-case-studies/
 │
-├── Case-Studies/                     ← Real-world incidents analyzed through a GRC lens
+├── Case-studies/                     ← Real-world incidents analyzed through a GRC lens
 │   ├── IT-OT-Threats/                ← Infrastructure, ICS/SCADA, network threats
 │   ├── Cloud-Security/               ← AWS, Azure, IAM, cloud misconfigurations
 │   ├── AI-Governance/                ← LLM risks, EU AI Act, model security
-│   └── Financial-Services/           ← Regulated industry incidents
+│   ├── Financial-Services/           ← Regulated industry incidents
+│   └── (each category includes a TEMPLATE_*.md defining the standard case format)
 │
-├── Risk-Register/                    ← Live enterprise risk register
-│   └── GRC_Intelligence_Risk_Register.xlsx
+├── Risk_Register/                    ← Live enterprise risk register
+│   └── GRC_Intelligence_Risk_Register.xlsx       (versioned weekly snapshots alongside)
 │
-├── Executive-Reports/                ← Board and CISO-ready reporting
+├── Executive_Reports/                ← Board and CISO-ready reporting
 │   ├── Executive_Report_Template.docx
 │   └── Weekly-Reports/               ← Dated weekly intelligence reports
 │
-├── Monitoring/                       ← Intelligence sources and monitoring methodology
-│   └── GRC_Intelligence_Monitoring_Prompt.md
-│
-├── Frameworks/                       ← Framework mapping references
-│
-└── CASE-STUDY-TEMPLATE.md            ← Standard format for all case studies
+└── Frameworks/                       ← Framework mapping references
 ```
 
 ---
@@ -109,11 +105,29 @@ Each case study follows a standard structure:
 
 ### Published Case Studies
 
+20 unique case studies published to date, organized by threat category:
+
+| Category | Case Studies | Frameworks |
+|---|---|---|
+| [IT-OT-Threats](./Case-studies/IT-OT-Threats) | 15 | NIST CSF, NIST 800-53, CIS Controls, IEC 62443 |
+| [Cloud-Security](./Case-studies/Cloud-Security) | 5 | NIST CSF, NIST 800-53, CIS Control 7 |
+| [AI-Governance](./Case-studies/AI-Governance) | 2 | NIST AI RMF, ISO 42001, EU AI Act |
+| [Financial-Services](./Case-studies/Financial-Services) | 1 | NIST 800-53, GLBA, SOX, SEC Cybersecurity Rules |
+
+*3 cases (Oracle PeopleSoft, LiteLLM AI Gateway, MSRC Patch Tuesday Wormable Kernel) are intentionally cross-filed under two categories per the program's multi-category duplication policy — each carries its own documented rationale rather than being an accidental copy. Folder counts above include both filings; the 20 figure is the unique-case count. New case studies added weekly as part of the intelligence monitoring cycle.*
+
+### Featured Case Studies
+
 | Case Study | Date | Threat Category | Frameworks |
 |---|---|---|---|
-| [CISA KEV — Hikvision & Rockwell Automation](./Case-studies/2026-03-CISA-KEV-Hikvision-Rockwell) | March 2026 | IT/OT — ICS/SCADA | NIST CSF, NIST 800-53, CIS Controls |
+| [CISA KEV — Oracle PeopleSoft Unauthenticated RCE (Zero-Day)](./Case-studies/Financial-Services/2026-06-CISA-KEV-Oracle-PeopleSoft) | June 2026 | Financial Services — ERP / Regulated Industry | NIST 800-53, SEC 4-day disclosure rule, GLBA |
+| [EU AI Act — High-Risk AI System Classification (Draft Guidelines)](./Case-studies/AI-Governance/2026-06-EU-AI-Act-HighRisk-Classification) | June 2026 | AI Governance — Regulatory | NIST AI RMF, ISO 42001, EU AI Act |
+| [AWS Bulletin — "Copy.fail" / "DirtyFrag" Linux Kernel LPE Family](./Case-studies/Cloud-Security/2026-06-AWS-Bulletin-Linux-Kernel-CopyFail) | June 2026 | Cloud Security — Platform Vulnerability | NIST CSF, NIST 800-53, CIS Control 7 |
+| [Cisco Catalyst SD-WAN Manager — Authenticated Command Injection (root)](./Case-studies/IT-OT-Threats/2026-06-CISA-KEV-Cisco-SDWAN) | June 2026 | IT/OT — Network Infrastructure | NIST CSF, NIST 800-53, CIS Controls |
+| [Cisco Catalyst SD-WAN Manager — Path Traversal (Root Escalation)](./Case-studies/IT-OT-Threats/2026-06-CISA-KEV-Cisco-SDWAN-PathTraversal) | June 2026 | IT/OT — Network Infrastructure | NIST CSF, NIST 800-53, CIS Controls |
+| [Microsoft Patch Tuesday — Wormable Windows Kernel RCE & HTTP.sys RCE](./Case-studies/IT-OT-Threats/2026-06-MSRC-PatchTuesday-WormableKernel) | June 2026 | IT/OT — Cross-Infrastructure | NIST CSF, NIST 800-53, CIS Controls |
 
-*New case studies added weekly as part of the intelligence monitoring cycle.*
+*Full index of all 20 case studies is browsable directly in the [Case-studies](./Case-studies) folder by category.*
 
 ---
 

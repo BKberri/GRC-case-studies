@@ -1,7 +1,0 @@
-﻿Vulnerability ID,NIST 800-53 Rev 5,ISO 27001:2022,CIS Control v8,Control Description
-CVE-2017-7921,RA-5,Annex A.12.6,Control 7.1,Vulnerability Management / Scanning IoT
-CVE-2017-7921,AC-2,Annex A.9.2,Control 6.1,Account Management / Authentication
-CVE-2021-22681,SI-2,Annex A.12.6,Control 7.4,Flaw Remediation / Patching OT
-CVE-2021-22681,SC-7,Annex A.13.1,Control 12.1,Network Segmentation / OT Isolation
-Global,CM-8,Annex A.8.1,Control 1.1,Inventory and Control of Assets
-Global,CA-7,Annex A.18.2,Control 18.1,Continuous Monitoring
