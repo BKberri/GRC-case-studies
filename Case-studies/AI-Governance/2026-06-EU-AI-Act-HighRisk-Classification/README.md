@@ -1,5 +1,7 @@
 Case Study: Proactive Regulatory Readiness — EU AI Act High-Risk Classification Guidance
 
+**Last Updated:** 2026-06-29 (see "Update" sections in each artifact for the Parliament deadline-delay revision to RR-009)
+
 Project Focus: AI Governance, Multi-Framework Regulatory Mapping, Proactive Compliance Program Design
 
 1. Professional Overview

@@ -16,3 +16,17 @@ We are using this window to take stock: cataloguing every AI system that could t
 
 **Bottom line for leadership:**
 Nothing is on fire — the deadlines that matter are roughly 18 months out. But the organizations that get caught flat-footed will be the ones that didn't start cataloguing and classifying their AI systems until the deadline was imminent. Doing this work now, calmly and on our own timeline, costs a fraction of doing it later under regulatory pressure — and it doubles as evidence for our broader AI-governance certification goals (ISO 42001).
+
+---
+
+## Update — 2026-06-29
+
+**What happened:** The European Parliament finalized amendments delaying certain high-risk compliance deadlines, and the public consultation closed on schedule (June 23). The classification criteria for what counts as "high-risk" AI did not change — only the timeline did.
+
+**Why it matters:** This buys us additional runway to complete our high-risk AI governance program, but it doesn't reduce what we ultimately have to do. EU regulatory deadline delays have historically not been extended a second time — we're treating this as planning relief, not a reason to slow down.
+
+**What we're doing:** Updating our AI governance program roadmap and board reporting materials to reflect the revised timeline, while keeping the AI system inventory and classification workstream moving on its current pace.
+
+**Current risk rating:** Medium (unchanged) — the deadline shift is a planning input, not a reduction in underlying compliance obligation.
+
+**Action: no executive decision required.** Recommend a brief note at the next board cycle confirming the timeline update and reaffirming that program work continues uninterrupted.

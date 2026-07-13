@@ -41,3 +41,18 @@ High — AWS multi-account environments running self-managed Kubernetes/containe
 
 ### 10. Owner / Status / Due Date
 **Owner:** Cloud Platform Engineering (GRC oversight: Blaise Kingko) | **Status:** Open | **Due Date:** 2026-06-22
+
+---
+
+## Update — 2026-06-15
+
+| Metric | Original (2026-06-08) | Revised (2026-06-15) | Change Reason |
+|---|---|---|---|
+| **Likelihood** | 4 | 3 | Fargate platform fully patched by AWS; no public exploitation of AWS environments confirmed; residual risk now limited to customer-managed unpatched compute |
+| **Impact** | 4 | 4 | Unchanged — LPE to root on unpatched compute still high impact if chained with a remote exploit |
+| **Risk Score** | 16 | 12 | Fargate patch reduces AWS-managed attack surface to zero |
+| **Risk Rating** | High | High | Still High pending customer EKS/Bottlerocket/EC2 remediation |
+
+**Residual risk once customer-side action completes:** Likelihood → 1, Impact → 3, Risk Score → 3 (Low).
+
+**Treatment:** Continue with customer-side remediation per POA&M. No change to risk treatment decision. RR-006 revised in place per program dedup rules (no new risk register row added).

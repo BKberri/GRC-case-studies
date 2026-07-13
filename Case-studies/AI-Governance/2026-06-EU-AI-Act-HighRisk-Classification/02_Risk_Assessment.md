@@ -40,3 +40,23 @@ Medium-High — any organization with EU-facing AI systems and no current formal
 
 ### 10. Owner / Status / Due Date
 **Owner:** AI Governance Lead / GRC (Blaise Kingko), in coordination with Legal & Regulatory Affairs | **Status:** Open — proactive/advisory | **Due Date:** 2026-06-23 (consultation deadline) for initial classification pass; ongoing thereafter
+
+---
+
+## Update — 2026-06-29
+
+**RR-009 revised in place.**
+
+| Field | Original (2026-06-08) | Revised (2026-06-29) |
+|---|---|---|
+| Likelihood | 3 | 3 (unchanged — classification gap probability unaffected by deadline shift) |
+| Impact | 3 | 3 (unchanged — compliance-debt nature of the impact is unaffected) |
+| Risk Score | 9 (Medium) | 9 (Medium) — **rating unchanged**; secondary governance-drift risk flagged below |
+| Inherent Risk | Medium-High | Medium-High (unchanged) |
+| Residual Risk | Low (≈4) post-classification | Low-Medium — added caution: deadline relief, if misread as obligation relief, can stall the classification exercise that drives residual-risk reduction |
+
+**Change driver:** European Parliament finalized deadline-delay amendments (approved 2026-06-16) for certain Annex III categories; consultation closed 2026-06-23 as scheduled. Classification criteria unchanged.
+
+**New consideration — governance-drift risk:** The score itself doesn't move, but this update adds an explicit secondary risk: organizations that treat the deadline delay as a reason to pause the classification/inventory program may face a compressed remediation window later if no further extension is granted (consistent with the GDPR non-repeated-transition precedent cited in the original assessment).
+
+**Recommendation:** Maintain program momentum on the Action items in Section 9 — none of them are deprioritized by this update.

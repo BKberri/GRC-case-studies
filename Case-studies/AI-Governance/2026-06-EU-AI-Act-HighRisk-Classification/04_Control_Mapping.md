@@ -16,3 +16,18 @@
 ### Mapping Notes
 - This case is a strong illustration of the **AI/ML framework track** described in the program's Framework Reference Map: NIST AI RMF (MAP) feeds directly into ISO 42001 (Clause 6.1.2/8.4), which in turn produces the evidence needed for EU AI Act Article 6/Annex III classification — a single evidence chain serving three frameworks.
 - Recommend building (or updating) a combined "AI System Classification & Impact Assessment" template that satisfies NIST AI RMF MAP documentation, ISO 42001 Clause 8.4 evidentiary requirements, EU AI Act Annex III classification rationale, and GDPR Article 35 DPIA needs in a single artifact — reducing duplicated compliance effort across all four.
+
+---
+
+## Update — 2026-06-29
+
+Framework mapping above is unchanged — Annex III classification criteria were not altered by this update. The only mapping addition concerns governance-process controls:
+
+| Framework | Control/Clause | Application to This Update |
+|---|---|---|
+| NIST AI RMF | GOVERN 1.1 / 1.3 | Update regulatory tracking and re-baseline program timeline to reflect revised deadline |
+| ISO/IEC 42001:2023 | Clause 6.1 | Reassess AI management system implementation roadmap against revised deadline |
+| ISO/IEC 42001:2023 | Clause 9.3 (Management review) | Brief leadership on revised timeline at next scheduled review |
+| EU AI Act | Annex III | Unchanged — no reclassification required |
+
+**Gap assessment:** No control gap introduced by this regulatory update. Recommend a documentation-control SLA (e.g., 30 days) for updating internal compliance tracking artifacts whenever a regulatory deadline change of this nature occurs, to prevent stale compliance documentation.

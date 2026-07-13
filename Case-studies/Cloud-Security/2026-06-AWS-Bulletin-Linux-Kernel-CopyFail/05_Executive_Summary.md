@@ -16,3 +16,15 @@ We are inventorying every server and container cluster running on the affected s
 
 **Bottom line for leadership:**
 This is a "patch before it's exploited" situation, not an active breach. The cost of patching now is near zero engineering time; the cost of not patching — a confirmed server takeover — would mean a multi-day operational disruption, potential regulatory notification obligations, and lasting damage to customer trust in our cloud isolation guarantees. We recommend treating the two-week patch window as a hard deadline.
+
+---
+
+## Update — 2026-06-15
+
+Good news on a partial front: AWS has completed its portion of the fix. All AWS-managed Fargate environments are now patched as of today, June 15, 2026.
+
+The remaining work is on our side: any EKS clusters using EC2-backed worker nodes, any servers running Bottlerocket, and any self-managed Linux EC2 instances need to be rotated to the patched builds AWS has already published. Cloud platform engineering is running this as a planned rolling update this week, with full remediation expected by June 22, 2026.
+
+**Current risk level:** High → reducing to Low upon completion of customer-side node rotation. No active exploitation of this vulnerability in AWS environments has been confirmed; the risk is theoretical but real if an attacker first gains a foothold in a container environment.
+
+**Action: no executive decision required. Tracking to the June 22 remediation target.**

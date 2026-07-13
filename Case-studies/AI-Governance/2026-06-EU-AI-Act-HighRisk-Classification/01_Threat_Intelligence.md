@@ -31,3 +31,15 @@ Conduct (or update) an internal AI-system inventory mapped against the draft Ann
 - Hunton Andrews Kurth, "European Commission Releases Draft Guidelines on High-Risk AI Under the EU AI Act"
 - Latham & Watkins, "AI Act Update: EU Resolves to Change Rules and Extend Deadlines"
 - artificialintelligenceact.eu, "Implementation Timeline"
+
+---
+
+## Update — 2026-06-29
+
+**What changed:** The European Parliament finalized amendments delaying specific high-risk compliance deadlines for certain Annex III AI system categories (approved **2026-06-16**). The public consultation on the draft classification guidance closed as scheduled on **2026-06-23**. The Annex III high-risk classification criteria themselves are **unchanged** — only the compliance deadline schedule moved.
+
+**Why this matters:** Organizations that had been planning compliance programs against the original (now-superseded) deadline schedule have additional runway, but the underlying obligation has not been reduced. EU digital regulation has a documented pattern (e.g., GDPR's two-year transition) of *not* extending transition periods a second time — treat this as planning relief, not scope relief.
+
+**Risk Register status:** **RR-009 revised in place** — no new risk register row created. This is a timeline-risk recalibration of an existing finding, not a new finding.
+
+**Recommended immediate action:** Update internal AI governance program timelines and board/executive reporting to reflect the revised deadline schedule; continue the Annex III inventory and classification work already in motion rather than deprioritizing it.

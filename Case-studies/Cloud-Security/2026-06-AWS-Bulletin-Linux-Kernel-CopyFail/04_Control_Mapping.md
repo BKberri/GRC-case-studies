@@ -19,3 +19,16 @@
 ### Mapping Notes
 - This case sits squarely in the **shared-responsibility seam**: AWS owns control-plane patching; the customer owns node/AMI rotation. Control mapping should explicitly assign SI-2 and CM-6 ownership to the cloud platform team, with GRC providing independent verification via RA-5 scan evidence.
 - Recommend adding this CVE family to the next quarterly vulnerability-management control test as a sample item for SI-2 effectiveness evidence (SOC 2 / ISO 27001 surveillance audit prep).
+
+---
+
+## Update — 2026-06-15
+
+Control framework mapping is unchanged from the original bundle — retained above for completeness. Control gap status as of this update:
+
+| Gap (Original) | Status (Updated) |
+|---|---|
+| Fargate not yet patched | ✅ CLOSED — AWS patched all regions by June 15 |
+| EKS AMI rotation not started | ⚠️ OPEN — patched AMI available; customer action required |
+| CSPM scan not run | ⚠️ OPEN — run after node rotation to confirm |
+| Bottlerocket v1.61.0 not available | ✅ CLOSED — v1.61.0 GA; customer update required |

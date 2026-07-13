@@ -35,3 +35,19 @@ If host compromise leads to cross-tenant data exposure, notification obligations
 
 ### 6. BIA Conclusion
 This is a **patch-before-exploit** scenario rather than an active-incident scenario. The business impact of *inaction* (a successful LPE chain in production) substantially outweighs the negligible cost of timely, orchestrated node replacement. Recommend treating the 14-day remediation window as a hard internal SLA, independent of the absence of a CISA KEV listing.
+
+---
+
+## Update — 2026-06-15
+
+AWS-managed Fargate is now fully patched, materially reducing exposure for Fargate-only workloads (no customer action required there). Residual business impact is now concentrated in customer-managed compute:
+
+| Scenario | Probability | Business Impact |
+|---|---|---|
+| LPE chained with container escape on unpatched EKS node | Low (no public PoC; attacker needs prior foothold) | Medium — root on worker node, kubelet credential access, potential lateral movement |
+| LPE on unpatched self-managed EC2 instance | Low | Medium — root on instance, instance-profile credential access, potential pivot to AWS services |
+| LPE after a separate successful remote exploit (chained attack) | Very Low | High — full host compromise |
+
+**Updated financial exposure:** original estimate ($2M–$15M for a fully unpatched estate) is now scoped down — Fargate-only organizations require no further action; exposure for EKS EC2-backed and mixed-compute organizations is proportional to remaining unpatched self-managed compute.
+
+**RTO/RPO impact of remediation itself:** node rotation is a planned operational event, not an incident — EKS node rotation runs 2–4 hours per node group (rolling, cordon/drain), Bottlerocket updates 15–30 minutes per host, with no business-continuity impact if the rolling-update strategy is followed.

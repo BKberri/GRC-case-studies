@@ -1,5 +1,7 @@
 Case Study: Shared-Responsibility Patch Governance — AWS Linux Kernel "Copy.fail / DirtyFrag" LPE Family
 
+**Last Updated:** 2026-06-15 (see "Update" sections in each artifact for the Fargate patch-confirmation revision)
+
 Project Focus: Cloud Security Architecture, Vulnerability Management Lifecycle, Shared-Responsibility Model Governance
 
 1. Professional Overview

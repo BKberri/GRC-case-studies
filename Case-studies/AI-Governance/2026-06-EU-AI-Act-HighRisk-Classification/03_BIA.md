@@ -34,3 +34,21 @@ Recommend no more than **90 days** from this identification date before a docume
 
 ### 6. BIA Conclusion
 This is a **proactive regulatory-readiness** scenario, not a reactive incident. The business impact of inaction compounds quietly over the next 18 months — the cost of acting now (a structured inventory and classification exercise, potentially paired with consultation feedback) is a fraction of the cost of reactive remediation under regulatory scrutiny or, worse, formal enforcement action after the December 2027 milestone arrives.
+
+---
+
+## Update — 2026-06-29
+
+| Impact Type | Assessment |
+|---|---|
+| Confidentiality | Not applicable — regulatory timeline change, not a technical vulnerability |
+| Integrity | Low — governance documentation and roadmap artifacts require updating to reflect revised deadlines |
+| Availability | Not applicable |
+| Regulatory / Compliance | Medium — affects compliance program sequencing; ultimate obligation unchanged |
+| Reputational | Low-Medium — any external-facing statements that referenced the original deadline should be reviewed |
+
+**Recovery framing:** Not applicable in the technical RTO/RPO sense. Recommend updating the AI governance program roadmap and board reporting materials within the current reporting cycle.
+
+**Dependency note:** Any vendor contracts, customer commitments, or internal SLAs that referenced the original EU AI Act deadline should be reviewed and updated — with care not to over-communicate timeline relief in a way stakeholders could mistake for obligation relief.
+
+**Conclusion:** The Section 4 Maximum Tolerable Delay (90 days from original identification) and the financial-exposure modeling in Section 2 remain valid and unchanged — this update affects program *sequencing*, not the magnitude of underlying exposure.

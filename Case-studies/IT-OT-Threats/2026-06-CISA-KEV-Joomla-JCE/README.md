@@ -23,3 +23,6 @@ See `Risk_Register/GRC_Intelligence_Risk_Register.xlsx`, Risk ID **RR-019**.
 
 ## Key Risk Driver
 JCE's broad install base across the Joomla! ecosystem combined with an unauthenticated/low-privilege RCE path makes this a high-volume, high-impact internet-facing CMS risk.
+
+## Related Case (Cross-Reference, Not a Revision)
+See also `IT-OT-Threats/2026-07-CISA-KEV-Joomla-ExtensionFileUpload` — a distinct 2026-07-13 finding covering four unrelated Joomla extensions (SP Page Builder, Joomlack Page Builder, iCagenda, Balbooa Forms) with the same unauthenticated file-upload RCE vulnerability class. Each carries its own CVE and Risk Register row; this is a pattern cross-reference, not an update or supersession of this case.

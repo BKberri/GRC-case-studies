@@ -47,3 +47,21 @@ Any organization running self-managed EKS node groups, persistent EC2 fleets, or
 - AWS Security Bulletin 2026-030-AWS, "Ongoing updates on Copy.fail and variants" (https://aws.amazon.com/security/security-bulletins/2026-030-aws/)
 - Elastic Security Labs, "Copy Fail and DirtyFrag: Linux Page Cache Bugs in the Wild"
 - Wiz Research, "Dirty Frag (CVE-2026-43284) Linux Privilege Escalation"
+
+---
+
+## Update — 2026-06-15
+
+**Source:** AWS Security Bulletin 2026-030 (updated June 11, 2026)
+
+AWS updated the bulletin confirming Fargate platform-version patches deployed to all regions by June 15, 2026, and Bottlerocket v1.61.0 reached GA. Customer-managed compute still requires action:
+
+| Component | Patch Status (as of 2026-06-15) |
+|---|---|
+| AWS Fargate (all regions) | ✅ Patched — confirmed per bulletin update June 11 |
+| EKS-optimized AMI | ✅ Patched AMI published — customer node rotation required |
+| Bottlerocket v1.61.0 | ✅ GA — customer host update required |
+| Amazon Linux 2023 kernel update | ✅ Available via ALAS2023 |
+| Self-managed EC2 (AL2/RHEL/Ubuntu) | ⚠️ Customer must apply vendor kernel patch |
+
+No public exploitation of AWS compute environments has been confirmed as of this update; no PoC specifically targeting AWS environments has been published.

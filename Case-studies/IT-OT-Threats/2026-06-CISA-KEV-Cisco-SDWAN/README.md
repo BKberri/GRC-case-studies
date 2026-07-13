@@ -3,6 +3,8 @@
 **Category:** IT-OT-Threats | **Sub-Category:** Network Infrastructure / WAN Management Plane
 **Run Date:** 2026-06-15 | **Report Period:** 2026-06-08 to 2026-06-15
 
+**Related Case:** `IT-OT-Threats/2026-06-CISA-KEV-Cisco-SDWAN-PathTraversal` (CVE-2026-20262, RR-017) — a second, independently-tracked vulnerability on the same platform identified 2026-06-15. Filed as a standalone case rather than an update to this one, since it is not a revision of CVE-2026-20245.
+
 ---
 
 ## Case Overview

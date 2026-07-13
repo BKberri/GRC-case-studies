@@ -105,16 +105,16 @@ Each case study follows a standard structure:
 
 ### Published Case Studies
 
-20 unique case studies published to date, organized by threat category:
+23 unique case studies published to date, organized by threat category:
 
 | Category | Case Studies | Frameworks |
 |---|---|---|
-| [IT-OT-Threats](./Case-studies/IT-OT-Threats) | 15 | NIST CSF, NIST 800-53, CIS Controls, IEC 62443 |
-| [Cloud-Security](./Case-studies/Cloud-Security) | 5 | NIST CSF, NIST 800-53, CIS Control 7 |
-| [AI-Governance](./Case-studies/AI-Governance) | 2 | NIST AI RMF, ISO 42001, EU AI Act |
+| [IT-OT-Threats](./Case-studies/IT-OT-Threats) | 17 | NIST CSF, NIST 800-53, CIS Controls, IEC 62443 |
+| [Cloud-Security](./Case-studies/Cloud-Security) | 6 | NIST CSF, NIST 800-53, CIS Control 7 |
+| [AI-Governance](./Case-studies/AI-Governance) | 3 | NIST AI RMF, ISO 42001, EU AI Act |
 | [Financial-Services](./Case-studies/Financial-Services) | 1 | NIST 800-53, GLBA, SOX, SEC Cybersecurity Rules |
 
-*3 cases (Oracle PeopleSoft, LiteLLM AI Gateway, MSRC Patch Tuesday Wormable Kernel) are intentionally cross-filed under two categories per the program's multi-category duplication policy — each carries its own documented rationale rather than being an accidental copy. Folder counts above include both filings; the 20 figure is the unique-case count. New case studies added weekly as part of the intelligence monitoring cycle.*
+*4 cases (Oracle PeopleSoft, LiteLLM AI Gateway, MSRC Patch Tuesday Wormable Kernel, Langflow AI Agent Platform) are intentionally cross-filed under two categories per the program's multi-category duplication policy — each carries its own documented rationale rather than being an accidental copy. Folder counts above include both filings; the 23 figure is the unique-case count. New case studies added weekly as part of the intelligence monitoring cycle.*
 
 <!-- Featured Case Studies — last manually reviewed: 2026-06-30 -->
 ### Featured Case Studies
@@ -128,7 +128,7 @@ Each case study follows a standard structure:
 | [Cisco Catalyst SD-WAN Manager — Path Traversal (Root Escalation)](./Case-studies/IT-OT-Threats/2026-06-CISA-KEV-Cisco-SDWAN-PathTraversal) | June 2026 | IT/OT — Network Infrastructure | NIST CSF, NIST 800-53, CIS Controls |
 | [Microsoft Patch Tuesday — Wormable Windows Kernel RCE & HTTP.sys RCE](./Case-studies/IT-OT-Threats/2026-06-MSRC-PatchTuesday-WormableKernel) | June 2026 | IT/OT — Cross-Infrastructure | NIST CSF, NIST 800-53, CIS Controls |
 
-*Full index of all 20 case studies is browsable directly in the [Case-studies](./Case-studies) folder by category.*
+*Full index of all 23 case studies is browsable directly in the [Case-studies](./Case-studies) folder by category.*
 
 ---
 

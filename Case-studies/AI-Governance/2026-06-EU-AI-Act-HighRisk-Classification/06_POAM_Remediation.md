@@ -18,3 +18,19 @@
 
 ### Escalation Trigger
 If the inventory exercise (Action #1) identifies any AI system already in production that maps clearly to an Annex III high-risk category and lacks any existing impact-assessment documentation, escalate immediately to Legal & Regulatory Affairs and the executive AI governance sponsor — this converts the finding from "proactive readiness" to "active compliance gap" requiring expedited remediation scoping (Action #5) ahead of schedule.
+
+---
+
+## Update — 2026-06-29
+
+**Driver:** European Parliament finalized deadline-delay amendments (approved 2026-06-16) for certain Annex III high-risk categories; the public consultation closed on schedule (2026-06-23). Classification criteria unchanged — only the compliance timeline shifted.
+
+| # | Action | Owner | Target Date | Status |
+|---|---|---|---|---|
+| 1 | Update AI governance program roadmap to reflect revised compliance deadline | AI Governance Lead (Blaise Kingko) | 2026-07-13 | Open |
+| 2 | Review and update any vendor/customer-facing communications referencing the original deadline | Legal / GRC | 2026-07-13 | Open |
+| 3 | Brief leadership/board on the revised timeline at next scheduled review | GRC | Next board cycle | Open |
+| 4 | Continue high-risk AI system inventory and documentation work (original Actions #1–#4 above) without pausing for the timeline relief | AI Governance Lead (Blaise Kingko) | Ongoing | Open |
+| 5 | Monitor for further EU AI Act implementation guidance following the closed consultation | GRC / Regulatory Affairs | Ongoing | Open |
+
+**Note on RR-009:** This update revises the existing risk register entry in place — no new row created, consistent with the program's revision-vs-new-finding dedup rule. The original Action items #1–#6 above remain the controlling remediation plan; this update only adjusts owner-facing timeline communication, it does not supersede the underlying workplan.
