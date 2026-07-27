@@ -1,0 +1,20 @@
+# Plan of Action & Milestones (POA&M)
+## SharePoint Server Deserialization RCE with Machine Key Theft (CVE-2026-50522)
+**Date Opened:** 2026-07-27 | **Source:** CISA KEV | **Risk Rating:** Critical | **Target Closure:** 2026-08-10
+
+## POA&M Table
+| Item ID | Weakness / Finding | Affected System | Control Reference | Responsible Role | Planned Action | Milestone 1 | Milestone 2 | Milestone 3 | Target Date | Status |
+|---|---|---|---|---|---|---|---|---|---|---|
+| POA-202607-012 | Deserialization RCE via Site Owner-level access | On-premises SharePoint Server (Subscription Edition, 2019, 2016) | SI-2, SI-10 | Enterprise Application Engineering | Apply Microsoft security update for CVE-2026-50522 to all servers | 2026-07-28: Inventory all on-prem SharePoint servers | 2026-07-30: Apply patch to all servers | 2026-08-01: Confirm patched build number | 2026-08-01 | Open — Emergency |
+| POA-202607-013 | Potential web shells or persistence artifacts planted before patching | On-premises SharePoint Server file system and IIS configuration | SI-3 | Security Operations | Forensic sweep for unauthorized files, unexpected service accounts, and machine-key-harvesting tools BEFORE key rotation | 2026-07-29: Begin forensic sweep | 2026-08-02: Complete sweep and remediate findings | 2026-08-04: Confirm environment clean | 2026-08-04 | Open — Emergency |
+| POA-202607-014 | IIS machine keys potentially stolen, enabling forged authentication tokens | On-premises SharePoint Server / IIS | IA-5 | Enterprise Application Engineering | Rotate IIS machine keys ONLY after Item 013 confirms environment is clean | 2026-08-04: Begin key rotation (post-sweep) | 2026-08-06: Complete rotation across all servers | 2026-08-08: Invalidate all pre-rotation sessions/tokens | 2026-08-08 | Open — Emergency |
+| POA-202607-015 | Cumulative exposure from related July SharePoint CVEs (CVE-2026-32201, -45659, -56164, -58644) | On-premises SharePoint Server estate | SI-2 | Enterprise Application Engineering | Confirm all four related CVEs are patched and treat as one cumulative remediation effort | 2026-08-01: Confirm patch status against full CVE cluster | 2026-08-05: Remediate any gaps | — | 2026-08-05 | Open |
+
+## Remediation Narrative
+Apply Microsoft's security update addressing CVE-2026-50522 to every on-premises SharePoint Server (Subscription Edition, 2019, 2016) immediately, per the KB articles referenced in Microsoft's CVE-2026-50522 advisory. Critically, sequence remediation correctly: before rotating IIS machine keys, conduct a forensic sweep for any persistence artifacts (web shells, unauthorized service accounts, machine-key-harvesting scripts) an attacker may have planted during the exploitation window beginning 2026-07-20 — rotating keys first, while a harvesting tool remains active on the server, simply hands the attacker the newly generated keys as well. Once the environment is confirmed clean, rotate the IIS machine keys and force invalidation of all existing authentication tokens/sessions, since any tokens forged with the old keys remain valid until the keys themselves are retired. Treat this remediation jointly with the other SharePoint Server vulnerabilities exploited this month (CVE-2026-32201, CVE-2026-45659, CVE-2026-56164, CVE-2026-58644) as CISA has noted attackers are chaining multiple SharePoint flaws in the same campaign.
+
+## Compensating Controls
+Elevate authentication-event monitoring on all SharePoint servers during the remediation window; temporarily restrict the ability to create or elevate Site Owner-level accounts pending completion of the forensic sweep.
+
+## Verification & Closure Criteria
+Closure requires: (1) confirmed patched build on all on-premises SharePoint servers, (2) completed forensic sweep with documented findings and remediation (or confirmed clean result), (3) completed machine key rotation performed only after the sweep, with all pre-rotation sessions invalidated, and (4) confirmed patch status against the full related-CVE cluster (CVE-2026-32201, -45659, -56164, -58644).
