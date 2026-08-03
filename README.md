@@ -105,22 +105,24 @@ Each case study follows a standard structure:
 
 ### Published Case Studies
 
-23 unique case studies published to date, organized by threat category:
+31 unique case studies published to date, organized by threat category:
 
 | Category | Case Studies | Frameworks |
 |---|---|---|
-| [IT-OT-Threats](./Case-studies/IT-OT-Threats) | 17 | NIST CSF, NIST 800-53, CIS Controls, IEC 62443 |
-| [Cloud-Security](./Case-studies/Cloud-Security) | 6 | NIST CSF, NIST 800-53, CIS Control 7 |
-| [AI-Governance](./Case-studies/AI-Governance) | 3 | NIST AI RMF, ISO 42001, EU AI Act |
+| [IT-OT-Threats](./Case-studies/IT-OT-Threats) | 22 | NIST CSF, NIST 800-53, CIS Controls, IEC 62443 |
+| [Cloud-Security](./Case-studies/Cloud-Security) | 8 | NIST CSF, NIST 800-53, CIS Control 7 |
+| [AI-Governance](./Case-studies/AI-Governance) | 5 | NIST AI RMF, ISO 42001, EU AI Act |
 | [Financial-Services](./Case-studies/Financial-Services) | 1 | NIST 800-53, GLBA, SOX, SEC Cybersecurity Rules |
 
-*4 cases (Oracle PeopleSoft, LiteLLM AI Gateway, MSRC Patch Tuesday Wormable Kernel, Langflow AI Agent Platform) are intentionally cross-filed under two categories per the program's multi-category duplication policy — each carries its own documented rationale rather than being an accidental copy. Folder counts above include both filings; the 23 figure is the unique-case count. New case studies added weekly as part of the intelligence monitoring cycle.*
+*5 cases (Oracle PeopleSoft, LiteLLM AI Gateway, MSRC Patch Tuesday Wormable Kernel, Langflow AI Agent Platform, Langflow ExecGlobals RCE) are intentionally cross-filed under two categories per the program's multi-category duplication policy — each carries its own documented rationale rather than being an accidental copy. Folder counts above include both filings; the 31 figure is the unique-case count. New case studies added weekly as part of the intelligence monitoring cycle.*
 
-<!-- Featured Case Studies — last manually reviewed: 2026-06-30 -->
+<!-- Featured Case Studies — last manually reviewed: 2026-08-03 -->
 ### Featured Case Studies
 
 | Case Study | Date | Threat Category | Frameworks |
 |---|---|---|---|
+| [CISA KEV — Arista VeloCloud Orchestrator Unauthenticated Command Injection (CVSS 10.0)](./Case-studies/IT-OT-Threats/2026-08-CISA-KEV-Arista-VeloCloud-CommandInjection) | August 2026 | IT/OT — SD-WAN Management Plane | NIST CSF, NIST 800-53, ISO 27001, CIS Controls |
+| [EU AI Act — Article 50 Transparency Obligations Enter Active Enforcement](./Case-studies/AI-Governance/2026-08-EU-AI-Act-Transparency-Enforcement) | August 2026 | AI Governance — Regulatory | NIST AI RMF, ISO 42001, EU AI Act |
 | [CISA KEV — Oracle PeopleSoft Unauthenticated RCE (Zero-Day)](./Case-studies/Financial-Services/2026-06-CISA-KEV-Oracle-PeopleSoft) | June 2026 | Financial Services — ERP / Regulated Industry | NIST 800-53, SEC 4-day disclosure rule, GLBA |
 | [EU AI Act — High-Risk AI System Classification (Draft Guidelines)](./Case-studies/AI-Governance/2026-06-EU-AI-Act-HighRisk-Classification) | June 2026 | AI Governance — Regulatory | NIST AI RMF, ISO 42001, EU AI Act |
 | [AWS Bulletin — "Copy.fail" / "DirtyFrag" Linux Kernel LPE Family](./Case-studies/Cloud-Security/2026-06-AWS-Bulletin-Linux-Kernel-CopyFail) | June 2026 | Cloud Security — Platform Vulnerability | NIST CSF, NIST 800-53, CIS Control 7 |
@@ -128,7 +130,7 @@ Each case study follows a standard structure:
 | [Cisco Catalyst SD-WAN Manager — Path Traversal (Root Escalation)](./Case-studies/IT-OT-Threats/2026-06-CISA-KEV-Cisco-SDWAN-PathTraversal) | June 2026 | IT/OT — Network Infrastructure | NIST CSF, NIST 800-53, CIS Controls |
 | [Microsoft Patch Tuesday — Wormable Windows Kernel RCE & HTTP.sys RCE](./Case-studies/IT-OT-Threats/2026-06-MSRC-PatchTuesday-WormableKernel) | June 2026 | IT/OT — Cross-Infrastructure | NIST CSF, NIST 800-53, CIS Controls |
 
-*Full index of all 23 case studies is browsable directly in the [Case-studies](./Case-studies) folder by category.*
+*Full index of all 31 case studies is browsable directly in the [Case-studies](./Case-studies) folder by category.*
 
 ---
 
