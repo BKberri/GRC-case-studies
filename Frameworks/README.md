@@ -247,6 +247,28 @@ migration, administration of justice, democratic processes
 
 ---
 
+## Healthcare Compliance Frameworks
+
+### HIPAA Security Rule (45 CFR Part 164, Subpart C)
+| Field | Details |
+|---|---|
+| **Issuing Body** | US Department of Health and Human Services (HHS) — Office for Civil Rights (OCR) |
+| **Current Version** | 45 CFR §§164.302–318, as amended | Breach Notification Rule at §§164.400–414 |
+| **URL** | https://www.hhs.gov/hipaa/for-professionals/security/index.html |
+| **Domain** | Administrative, physical, and technical safeguards for electronic protected health information (ePHI); breach notification obligations |
+| **Structure** | Required and addressable implementation specifications organized under Administrative, Physical, and Technical Safeguards |
+| **Use in This Program** | Regulatory reference for findings affecting network/security infrastructure that segments or protects clinical/PHI-handling environments |
+| **Who Uses It** | US healthcare providers, health plans, healthcare clearinghouses, and their business associates |
+
+**Key Sections Referenced:**
+- §164.312(a)(1) — Access Control
+- §164.312(b) — Audit Controls
+- §164.400–414 — Breach Notification Rule
+
+**Added to this program:** 2026-08-03 — first referenced in the *2026-08-CISA-KEV-Cisco-FMC-HardcodedPassword* case study (IT-OT-Threats), where a hard-coded credential in a centralized firewall management platform was evaluated against an illustrative regional healthcare-system BIA. HIPAA was mapped alongside the standard NIST/ISO/CIS stack because firewall management infrastructure that segments clinical/PHI-handling networks falls within HIPAA Security Rule access-control and audit-control scope even though it does not store ePHI directly — the addition gives the program a documented framework reference for future cases involving healthcare-sector network infrastructure or clinical-system segmentation.
+
+---
+
 ## Financial Services Frameworks
 
 ### Key Regulatory References
@@ -310,5 +332,5 @@ CISA KEV      →  Actively exploited vulnerabilities
 
 ---
 
-*Framework Reference Map v1.0 — Blaise Kingko GRC Intelligence Program*  
-*Last Updated: May 2026*
+*Framework Reference Map v1.1 — Blaise Kingko GRC Intelligence Program*  
+*Last Updated: 2026-08-03 — added Healthcare Compliance Frameworks section (HIPAA Security Rule)*
