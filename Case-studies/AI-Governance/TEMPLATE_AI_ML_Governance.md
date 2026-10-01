@@ -1,5 +1,5 @@
-# [INCIDENT TITLE] — AI/ML & LLM Governance Case Study
-> **Example title format:** `Prompt Injection Attack on Enterprise LLM Deployment — AI Governance Risk Analysis`
+# [INCIDENT TITLE]: AI/ML & LLM Governance Case Study
+> **Example title format:** `Prompt Injection Attack on Enterprise LLM Deployment, AI Governance Risk Analysis`
 
 ---
 
@@ -11,9 +11,9 @@
 | **Date Published** | [YYYY-MM-DD] |
 | **Incident Date** | [YYYY-MM-DD or Month YYYY] |
 | **Author** | Blaise Kingko |
-| **Threat Category** | AI/ML — [LLM Security / Model Risk / Data Poisoning / Governance / Regulatory] |
-| **MITRE ATLAS Technique** | [AML.T#### — if applicable] |
-| **CVE / Advisory ID** | [CVE or advisory if applicable — many AI threats have no CVE] |
+| **Threat Category** | AI/ML: [LLM Security / Model Risk / Data Poisoning / Governance / Regulatory] |
+| **MITRE ATLAS Technique** | [AML.T####: if applicable] |
+| **CVE / Advisory ID** | [CVE or advisory if applicable: many AI threats have no CVE] |
 | **Affected System** | [LLM platform / ML model / AI application / Training pipeline] |
 | **AI Framework** | [OpenAI / AWS Bedrock / Azure OpenAI / Hugging Face / Custom] |
 | **Intelligence Source** | [MITRE ATLAS / NIST AI RMF / EU AI Act / Vendor Advisory / Research Paper] |
@@ -29,7 +29,7 @@
 [Insert plain-language summary here]
 
 ### 1.2 Why It Matters
-*1–2 sentences. AI threats are often misunderstood at the executive level. Frame this in terms decision-makers understand — liability, data exposure, regulatory risk, reputational harm.*
+*1–2 sentences. AI threats are often misunderstood at the executive level. Frame this in terms decision-makers understand: liability, data exposure, regulatory risk, reputational harm.*
 
 [Insert business impact framing here]
 
@@ -55,18 +55,18 @@
 | **Threat Type** | [Prompt Injection / Jailbreak / Data Poisoning / Model Inversion / Membership Inference / Model Theft / Adversarial Input / Supply Chain] |
 | **Attack Complexity** | [Low / Medium / High] |
 | **Attacker Position** | [External user / Internal user / Third-party / Supply chain] |
-| **Exploits Model Behavior** | [Yes / No — describe how model behavior is manipulated] |
+| **Exploits Model Behavior** | [Yes / No: describe how model behavior is manipulated] |
 | **Data at Risk** | [Training data / User data / System prompts / Business logic] |
 | **Persistence** | [One-time / Persistent in model / Persistent in pipeline] |
 
 ### 2.2 Attack Chain
 *Map to MITRE ATLAS techniques where applicable. ATLAS is the AI/ML equivalent of ATT&CK.*
 
-1. **Reconnaissance** — [How attacker learns about the AI system — ATLAS AML.T####]
-2. **Initial Access** — [Entry point into the AI system — ATLAS AML.T####]
-3. **Manipulation** — [How the model is manipulated or exploited — ATLAS AML.T####]
-4. **Collection / Exfiltration** — [What is extracted — ATLAS AML.T####]
-5. **Impact** — [Ultimate objective — ATLAS AML.T####]
+1. **Reconnaissance**: [How attacker learns about the AI system: ATLAS AML.T####]
+2. **Initial Access**: [Entry point into the AI system: ATLAS AML.T####]
+3. **Manipulation**: [How the model is manipulated or exploited: ATLAS AML.T####]
+4. **Collection / Exfiltration**: [What is extracted: ATLAS AML.T####]
+5. **Impact**: [Ultimate objective: ATLAS AML.T####]
 
 ### 2.3 AI-Specific Attack Detail
 *Provide technical depth on the AI-specific mechanism. This section should demonstrate understanding of how LLMs and ML systems actually work.*
@@ -95,7 +95,7 @@
 ### 2.4 Root Cause
 *What is the underlying design, governance, or architectural failure?*
 
-[Insert root cause — be specific. "The LLM lacked adequate input validation" is not enough. "The system prompt was not isolated from user-accessible context, and no guardrails prevented prompt injection through the document upload feature" is a root cause.]
+[Insert root cause: be specific. "The LLM lacked adequate input validation" is not enough. "The system prompt was not isolated from user-accessible context, and no guardrails prevented prompt injection through the document upload feature" is a root cause.]
 
 ---
 
@@ -105,14 +105,14 @@
 
 | Function | Category | Sub-category | Finding |
 |---|---|---|---|
-| **GOVERN** | Organizational Practices | [e.g., GOV-1.1 — Policies, processes, procedures are in place] | [Gap or finding] |
-| **GOVERN** | Risk Culture | [e.g., GOV-2.2 — Mechanisms to sustain accountability are in place] | [Gap or finding] |
-| **MAP** | Context | [e.g., MAP-1.5 — Organizational risk tolerances are determined] | [Gap or finding] |
-| **MAP** | AI Risk | [e.g., MAP-5.1 — Likelihood of impacts on individuals is documented] | [Gap or finding] |
-| **MEASURE** | Analysis | [e.g., MSR-2.5 — AI system to be deployed is demonstrated to be valid] | [Gap or finding] |
-| **MEASURE** | Monitoring | [e.g., MSR-4.1 — Post-deployment risks are monitored] | [Gap or finding] |
-| **MANAGE** | Mitigation | [e.g., MGT-1.3 — Responses to identified risks are prioritized] | [Gap or finding] |
-| **MANAGE** | Incidents | [e.g., MGT-4.1 — Identified AI risks are responded to] | [Gap or finding] |
+| **GOVERN** | Organizational Practices | [e.g., GOV-1.1: Policies, processes, procedures are in place] | [Gap or finding] |
+| **GOVERN** | Risk Culture | [e.g., GOV-2.2: Mechanisms to sustain accountability are in place] | [Gap or finding] |
+| **MAP** | Context | [e.g., MAP-1.5: Organizational risk tolerances are determined] | [Gap or finding] |
+| **MAP** | AI Risk | [e.g., MAP-5.1: Likelihood of impacts on individuals is documented] | [Gap or finding] |
+| **MEASURE** | Analysis | [e.g., MSR-2.5: AI system to be deployed is demonstrated to be valid] | [Gap or finding] |
+| **MEASURE** | Monitoring | [e.g., MSR-4.1: Post-deployment risks are monitored] | [Gap or finding] |
+| **MANAGE** | Mitigation | [e.g., MGT-1.3: Responses to identified risks are prioritized] | [Gap or finding] |
+| **MANAGE** | Incidents | [e.g., MGT-4.1: Identified AI risks are responded to] | [Gap or finding] |
 
 ### 3.2 ISO 42001 Mapping
 
@@ -129,12 +129,12 @@
 
 | Article / Annex | Requirement | Finding |
 |---|---|---|
-| Article 9 | Risk management system | [Finding — required for high-risk AI] |
-| Article 10 | Data and data governance | [Finding — training data requirements] |
-| Article 11 | Technical documentation | [Finding — documentation requirement] |
-| Article 13 | Transparency and information provision | [Finding — user disclosure] |
-| Article 14 | Human oversight | [Finding — oversight mechanisms] |
-| Article 15 | Accuracy, robustness, and cybersecurity | [Finding — security requirements] |
+| Article 9 | Risk management system | [Finding: required for high-risk AI] |
+| Article 10 | Data and data governance | [Finding: training data requirements] |
+| Article 11 | Technical documentation | [Finding: documentation requirement] |
+| Article 13 | Transparency and information provision | [Finding: user disclosure] |
+| Article 14 | Human oversight | [Finding: oversight mechanisms] |
+| Article 15 | Accuracy, robustness, and cybersecurity | [Finding: security requirements] |
 | Annex III | High-risk AI systems list | [Is this system high-risk per Annex III?] |
 
 ### 3.4 NIST SP 800-53 Mapping
@@ -156,7 +156,7 @@
 
 | Dimension | Score | Rationale |
 |---|---|---|
-| **Likelihood** | [1–5] | [How likely is exploitation — consider attacker access to the system, technical skill required] |
+| **Likelihood** | [1–5] | [How likely is exploitation: consider attacker access to the system, technical skill required] |
 | **Impact** | [1–5] | [Data sensitivity, regulatory exposure, reputational risk, safety implications] |
 | **Risk Score** | [L × I] | [Calculated] |
 | **Risk Rating** | [Critical / High / Medium / Low] | [20-25=Critical, 10-19=High, 5-9=Medium, 1-4=Low] |
@@ -176,10 +176,10 @@
 
 ### 4.3 EU AI Act Risk Classification
 
-- [ ] **Unacceptable Risk** — Prohibited under EU AI Act (social scoring, real-time biometrics in public spaces)
-- [ ] **High Risk** — Requires conformity assessment, technical documentation, human oversight (Annex III)
-- [ ] **Limited Risk** — Transparency obligations apply (chatbots must disclose AI nature)
-- [ ] **Minimal Risk** — No specific obligations under EU AI Act
+- [ ] **Unacceptable Risk**: Prohibited under EU AI Act (social scoring, real-time biometrics in public spaces)
+- [ ] **High Risk**: Requires conformity assessment, technical documentation, human oversight (Annex III)
+- [ ] **Limited Risk**: Transparency obligations apply (chatbots must disclose AI nature)
+- [ ] **Minimal Risk**: No specific obligations under EU AI Act
 
 ---
 
@@ -188,11 +188,11 @@
 ### 5.1 How This Challenges Traditional Risk Models
 *AI threats require entirely new risk thinking. Traditional vulnerability management, network segmentation, and access control frameworks were not designed for systems that can be manipulated through natural language.*
 
-[Insert analysis — 2–4 paragraphs. Address: why AI risk is probabilistic not deterministic, why traditional pen testing doesn't cover LLM attack surfaces, why the attack surface changes with every model update, how AI supply chain risk differs from software supply chain risk]
+[Insert analysis: 2–4 paragraphs. Address: why AI risk is probabilistic not deterministic, why traditional pen testing doesn't cover LLM attack surfaces, why the attack surface changes with every model update, how AI supply chain risk differs from software supply chain risk]
 
 ### 5.2 Where Traditional GRC Controls Break Down
 
-- **[Traditional control 1]:** [Why it fails for AI — e.g., "Input validation rules cannot anticipate all prompt injection variations in a generative context"]
+- **[Traditional control 1]:** [Why it fails for AI: e.g., "Input validation rules cannot anticipate all prompt injection variations in a generative context"]
 - **[Traditional control 2]:** [Why it fails]
 - **[Traditional control 3]:** [Why it fails]
 
@@ -213,7 +213,7 @@
 | Action | Owner | Framework Reference | Priority |
 |---|---|---|---|
 | [e.g., Implement input/output guardrails on all LLM interfaces] | AI/ML Security | NIST AI RMF: MGT-1.3 \| ISO 42001: 8.4 | 🔴 Critical |
-| [e.g., Audit system prompts — ensure not exposed to user context] | AI Engineering | NIST AI RMF: MSR-2.5 | 🔴 Critical |
+| [e.g., Audit system prompts: ensure not exposed to user context] | AI Engineering | NIST AI RMF: MSR-2.5 | 🔴 Critical |
 | [e.g., Enable logging of all LLM inputs and outputs for audit] | Security / AI Ops | NIST 800-53: AU-2 | 🟠 High |
 
 ### 6.2 Short-Term Actions (8–30 Days)
@@ -230,33 +230,33 @@
 |---|---|---|
 | [Establish AI Governance program with dedicated AI risk register] | NIST AI RMF: GOVERN \| ISO 42001 | [Why this is a program-level need] |
 | [Implement EU AI Act conformity assessment for high-risk systems] | EU AI Act: Article 9 | [Regulatory deadline and liability exposure] |
-| [Deploy LLM-specific security tooling — prompt injection detection] | NIST AI RMF: MSR-4 | [Continuous monitoring requirement] |
+| [Deploy LLM-specific security tooling: prompt injection detection] | NIST AI RMF: MSR-4 | [Continuous monitoring requirement] |
 
 ### 6.4 AI-Specific Technical Controls
-- **Prompt Injection Defense:** Instruction hierarchy enforcement — system prompts take precedence over user inputs; separate contexts clearly
+- **Prompt Injection Defense:** Instruction hierarchy enforcement: system prompts take precedence over user inputs; separate contexts clearly
 - **Output Filtering:** Post-generation filtering for PII, toxic content, sensitive business data before delivery to user
 - **Rate Limiting & Anomaly Detection:** Monitor for unusual query patterns indicative of model probing or data extraction attempts
 - **Human-in-the-Loop:** For high-risk decisions, require human review before AI output is acted upon
-- **Model Versioning:** Maintain audit trail of which model version produced which output — essential for incident investigation
+- **Model Versioning:** Maintain audit trail of which model version produced which output, essential for incident investigation
 - **Supply Chain Vetting:** Evaluate upstream models, training datasets, and fine-tuning sources for security and bias risks
 
 ---
 
 ## 7. Executive Summary
 
-*Write last. Maximum one page. Plain English. Board-level reader. AI topics require extra care — executives often misunderstand both the capability and the risk.*
+*Write last. Maximum one page. Plain English. Board-level reader. AI topics require extra care: executives often misunderstand both the capability and the risk.*
 
 ### The Situation
-[What AI system is affected and what the risk event was — avoid technical jargon]
+[What AI system is affected and what the risk event was; avoid technical jargon]
 
 ### The Business Risk
-[Liability, regulatory exposure, customer trust, safety — connect to business outcomes not technical findings]
+[Liability, regulatory exposure, customer trust, safety; connect to business outcomes not technical findings]
 
 ### What We Are Doing
-[Immediate and near-term actions — specific governance and technical responses]
+[Immediate and near-term actions: specific governance and technical responses]
 
 ### What We Need From Leadership
-[AI governance requires executive sponsorship — what decisions or resources are needed at the top]
+[AI governance requires executive sponsorship: what decisions or resources are needed at the top]
 
 ---
 
@@ -281,5 +281,5 @@
 
 ---
 
-*Case Study Template v1.0 — Blaise Kingko GRC Intelligence Program*
+*Case Study Template v1.0: Blaise Kingko GRC Intelligence Program*
 *Framework References: NIST AI RMF | ISO 42001 | EU AI Act | MITRE ATLAS | NIST SP 800-53 Rev 5*

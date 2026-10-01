@@ -1,5 +1,5 @@
-# [INCIDENT TITLE] — Financial Services GRC Case Study
-> **Example title format:** `SEC Cybersecurity Disclosure Failure — Governance and Regulatory Risk Analysis`
+# [INCIDENT TITLE]: Financial Services GRC Case Study
+> **Example title format:** `SEC Cybersecurity Disclosure Failure: Governance and Regulatory Risk Analysis`
 
 ---
 
@@ -11,7 +11,7 @@
 | **Date Published** | [YYYY-MM-DD] |
 | **Incident Date** | [YYYY-MM-DD or Month YYYY] |
 | **Author** | Blaise Kingko |
-| **Threat Category** | Financial Services — [Fraud / Ransomware / Data Breach / Regulatory / Third-Party / Insider Threat] |
+| **Threat Category** | Financial Services: [Fraud / Ransomware / Data Breach / Regulatory / Third-Party / Insider Threat] |
 | **CVE / Advisory ID** | [If applicable] |
 | **Affected Institution Type** | [Tier-1 Bank / Regional Bank / FinTech / Insurance / Investment Firm / Payment Processor] |
 | **Regulatory Bodies Involved** | [OCC / Federal Reserve / SEC / FINRA / CFPB / State Regulator] |
@@ -37,7 +37,7 @@
 | Field | Details |
 |---|---|
 | **Institution Type** | [Bank / FinTech / Insurance / Investment / Payment] |
-| **Asset Size / Revenue** | [$X billion AUM / revenue — if disclosed] |
+| **Asset Size / Revenue** | [$X billion AUM / revenue: if disclosed] |
 | **Regulatory Classification** | [Systemically important / Regional / Community / Non-bank] |
 | **Primary Regulator** | [OCC / Federal Reserve / SEC / State DFS / etc.] |
 | **Key Regulations Implicated** | [Gramm-Leach-Bliley / SOX / DORA / PCI-DSS / NYDFS Part 500 / etc.] |
@@ -61,24 +61,24 @@
 ### 2.2 Attack Chain
 *Map to MITRE ATT&CK Financial Services techniques where applicable.*
 
-1. **Initial Access** — [Entry vector — ATT&CK T####]
-2. **Execution / Persistence** — [How attacker maintained foothold — ATT&CK T####]
-3. **Lateral Movement** — [How attacker moved through the environment — ATT&CK T####]
-4. **Impact** — [Data exfiltration / encryption / fraud / regulatory trigger — ATT&CK T####]
+1. **Initial Access**: [Entry vector: ATT&CK T####]
+2. **Execution / Persistence**: [How attacker maintained foothold: ATT&CK T####]
+3. **Lateral Movement**: [How attacker moved through the environment: ATT&CK T####]
+4. **Impact**: [Data exfiltration / encryption / fraud / regulatory trigger: ATT&CK T####]
 
 ### 2.3 Third-Party Risk Analysis
 *Financial services incidents frequently involve third-party or supply chain vectors. Complete this section if applicable.*
 
 - **Third party involved:** [Vendor / partner / processor / cloud provider]
 - **Contract coverage:** [Did the contract require adequate security controls?]
-- **Due diligence gap:** [Was vendor risk assessed — how and when?]
+- **Due diligence gap:** [Was vendor risk assessed: how and when?]
 - **Access scope:** [What access did the third party have to systems and data?]
 - **Notification timeline:** [How long before the third party notified the institution?]
 
 ### 2.4 Root Cause
 *What is the underlying governance, architectural, or process failure?*
 
-[Insert root cause — be specific and connect to both the technical failure and the governance failure that allowed it. Financial services root causes often involve both.]
+[Insert root cause: be specific and connect to both the technical failure and the governance failure that allowed it. Financial services root causes often involve both.]
 
 ---
 
@@ -88,12 +88,12 @@
 
 | CSF Function | Subcategory | Gap or Finding |
 |---|---|---|
-| **GOVERN** | [e.g., GV.SC-07 — Supply chain risk managed] | [Third-party oversight gap] |
-| **IDENTIFY** | [e.g., ID.RA-01 — Vulnerabilities in assets identified] | [Risk assessment gap] |
-| **PROTECT** | [e.g., PR.AA-03 — Identities managed] | [Access control gap] |
-| **DETECT** | [e.g., DE.AE-04 — Impact of events determined] | [Detection and triage gap] |
-| **RESPOND** | [e.g., RS.CO-02 — Incidents reported per regulatory requirements] | [Notification gap] |
-| **RECOVER** | [e.g., RC.CO-03 — Recovery activities communicated] | [Recovery communication gap] |
+| **GOVERN** | [e.g., GV.SC-07: Supply chain risk managed] | [Third-party oversight gap] |
+| **IDENTIFY** | [e.g., ID.RA-01: Vulnerabilities in assets identified] | [Risk assessment gap] |
+| **PROTECT** | [e.g., PR.AA-03: Identities managed] | [Access control gap] |
+| **DETECT** | [e.g., DE.AE-04: Impact of events determined] | [Detection and triage gap] |
+| **RESPOND** | [e.g., RS.CO-02: Incidents reported per regulatory requirements] | [Notification gap] |
+| **RECOVER** | [e.g., RC.CO-03: Recovery activities communicated] | [Recovery communication gap] |
 
 ### 3.2 NIST SP 800-53 Control Mapping
 
@@ -120,14 +120,14 @@
 
 | Regulation / Standard | Requirement | Finding |
 |---|---|---|
-| **Gramm-Leach-Bliley Act (GLBA)** | Safeguards Rule — administrative, technical, and physical safeguards | [Finding] |
-| **SOX Section 404** | Internal controls over financial reporting | [Finding — if publicly traded] |
-| **PCI-DSS v4.0** | Cardholder data environment protection | [Finding — if payment data involved] |
-| **NYDFS Part 500** | Cybersecurity requirements for financial services | [Finding — if NY-regulated] |
-| **SEC Cybersecurity Rules** | Disclosure of material cybersecurity incidents within 4 days | [Finding — if SEC-registered] |
-| **DORA (EU)** | Digital operational resilience for financial entities | [Finding — if EU operations] |
-| **OCC Guidelines** | Safety and soundness — technology risk management | [Finding — if OCC-regulated] |
-| **Federal Reserve SR 11-7** | Model risk management guidance | [Finding — if model risk involved] |
+| **Gramm-Leach-Bliley Act (GLBA)** | Safeguards Rule: administrative, technical, and physical safeguards | [Finding] |
+| **SOX Section 404** | Internal controls over financial reporting | [Finding: if publicly traded] |
+| **PCI-DSS v4.0** | Cardholder data environment protection | [Finding: if payment data involved] |
+| **NYDFS Part 500** | Cybersecurity requirements for financial services | [Finding: if NY-regulated] |
+| **SEC Cybersecurity Rules** | Disclosure of material cybersecurity incidents within 4 days | [Finding: if SEC-registered] |
+| **DORA (EU)** | Digital operational resilience for financial entities | [Finding: if EU operations] |
+| **OCC Guidelines** | Safety and soundness: technology risk management | [Finding: if OCC-regulated] |
+| **Federal Reserve SR 11-7** | Model risk management guidance | [Finding: if model risk involved] |
 
 ### 3.5 CIS Controls v8 Mapping
 
@@ -168,7 +168,7 @@
 
 | Regulator | Notification Requirement | Timeline Met? | Notes |
 |---|---|---|---|
-| SEC | Material incident — 8-K within 4 business days | [Yes/No] | [Details] |
+| SEC | Material incident: 8-K within 4 business days | [Yes/No] | [Details] |
 | OCC | Safety and soundness notification | [Yes/No] | [Details] |
 | NYDFS | 72-hour notification | [Yes/No] | [Details] |
 | Federal Reserve | As required by supervisory agreement | [Yes/No] | [Details] |
@@ -178,20 +178,20 @@
 ## 5. Risk Model Implications
 
 ### 5.1 How This Challenges Traditional Risk Models
-*Financial services have the most mature regulatory risk frameworks in any sector — yet incidents still occur. Explain what this incident reveals about the limits of even mature GRC programs.*
+*Financial services have the most mature regulatory risk frameworks in any sector, yet incidents still occur. Explain what this incident reveals about the limits of even mature GRC programs.*
 
-[Insert analysis — 2–4 paragraphs. Address: regulatory compliance ≠ security, third-party risk concentration, model risk in automated decision systems, the tension between operational speed and security controls in financial services]
+[Insert analysis: 2–4 paragraphs. Address: regulatory compliance ≠ security, third-party risk concentration, model risk in automated decision systems, the tension between operational speed and security controls in financial services]
 
 ### 5.2 Where Traditional Controls Break Down
 
-- **[Control assumption 1]:** [Why it failed — e.g., "Annual vendor assessments don't detect security posture changes between reviews"]
+- **[Control assumption 1]:** [Why it failed: e.g., "Annual vendor assessments don't detect security posture changes between reviews"]
 - **[Control assumption 2]:** [Why it failed]
 - **[Control assumption 3]:** [Why it failed]
 
 ### 5.3 Regulatory Pattern
 *Connect this incident to the broader regulatory enforcement trend.*
 
-[Insert pattern — e.g., increasing SEC enforcement on disclosure timing, OCC focus on third-party concentration risk, NYDFS expanding scope of Part 500, DORA creating new operational resilience requirements for EU financial entities]
+[Insert pattern: e.g., increasing SEC enforcement on disclosure timing, OCC focus on third-party concentration risk, NYDFS expanding scope of Part 500, DORA creating new operational resilience requirements for EU financial entities]
 
 ---
 
@@ -201,9 +201,9 @@
 
 | Action | Owner | Framework Reference | Priority |
 |---|---|---|---|
-| [Contain the incident — isolate affected systems] | CISO / SOC | NIST 800-53: IR-4 \| NIST CSF: RS.MI | 🔴 Critical |
+| [Contain the incident: isolate affected systems] | CISO / SOC | NIST 800-53: IR-4 \| NIST CSF: RS.MI | 🔴 Critical |
 | [Notify regulators per applicable timelines] | Legal / Compliance | SEC Rule / NYDFS Part 500 / OCC | 🔴 Critical |
-| [Preserve all audit logs — do not alter or delete] | IT / Legal | NIST 800-53: AU-9 | 🔴 Critical |
+| [Preserve all audit logs: do not alter or delete] | IT / Legal | NIST 800-53: AU-9 | 🔴 Critical |
 
 ### 6.2 Short-Term Actions (8–30 Days)
 
@@ -222,17 +222,17 @@
 | [Zero Trust architecture for core banking access] | NIST 800-207 \| OCC Guidelines | [Lateral movement prevention in high-value environments] |
 
 ### 6.4 Financial Services Specific Controls
-- **Model Risk Management (MRM):** Validate all automated decision models per SR 11-7 — document assumptions, limitations, and ongoing monitoring
-- **Operational Resilience:** Test recovery procedures against regulatory RTO/RPO requirements — not just technical capability
+- **Model Risk Management (MRM):** Validate all automated decision models per SR 11-7: document assumptions, limitations, and ongoing monitoring
+- **Operational Resilience:** Test recovery procedures against regulatory RTO/RPO requirements, not just technical capability
 - **Regulatory Notification Runbook:** Pre-built playbook for each regulator with notification templates, contact lists, and timeline tracking
-- **Third-Party Concentration Risk:** Map critical vendor dependencies — identify single points of failure before an incident creates them
-- **Insider Threat Program:** Financial services are high-value targets for insider fraud — behavioral analytics and privileged access monitoring are essential
+- **Third-Party Concentration Risk:** Map critical vendor dependencies: identify single points of failure before an incident creates them
+- **Insider Threat Program:** Financial services are high-value targets for insider fraud: behavioral analytics and privileged access monitoring are essential
 
 ---
 
 ## 7. Executive Summary
 
-*Write last. Maximum one page. Plain English. Board-level reader. Financial services boards are more regulatory-aware than most — connect directly to regulator expectations and enforcement trends.*
+*Write last. Maximum one page. Plain English. Board-level reader. Financial services boards are more regulatory-aware than most: connect directly to regulator expectations and enforcement trends.*
 
 ### The Situation
 [What happened, what institution type, what regulatory and financial exposure was triggered]
@@ -244,7 +244,7 @@
 [Revenue impact, customer attrition, reputational damage, systemic risk if applicable]
 
 ### What We Are Doing
-[Immediate containment, regulatory notification, remediation actions — specific]
+[Immediate containment, regulatory notification, remediation actions: specific]
 
 ### What We Need From Leadership
 [Board-level decisions: disclosure strategy, regulatory response posture, resource allocation for remediation]
@@ -272,5 +272,5 @@
 
 ---
 
-*Case Study Template v1.0 — Blaise Kingko GRC Intelligence Program*
+*Case Study Template v1.0: Blaise Kingko GRC Intelligence Program*
 *Framework References: NIST CSF 2.0 | NIST SP 800-53 Rev 5 | ISO 27001:2022 | CIS Controls v8 | GLBA | SOX | PCI-DSS | NYDFS Part 500 | SEC Cybersecurity Rules | DORA*

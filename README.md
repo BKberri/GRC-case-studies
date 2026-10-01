@@ -1,21 +1,31 @@
 # GRC Intelligence & Case Study Portfolio
-### Blaise Kingko — Senior Cloud GRC & Security Architect
+### Blaise Kingko: Senior Cloud Security & GRC Architect
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-berrikingko-blue?style=flat&logo=linkedin)](https://linkedin.com/in/berrikingko)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-bk--lakeville-blue?style=flat&logo=linkedin)](https://linkedin.com/in/bk-lakeville)
 [![Frameworks](https://img.shields.io/badge/Frameworks-NIST%20%7C%20ISO%20%7C%20CIS%20%7C%20EU%20AI%20Act-navy?style=flat)]()
 [![Focus](https://img.shields.io/badge/Focus-Cloud%20GRC%20%7C%20AI%20Governance%20%7C%20Threat%20Intel-2E86C1?style=flat)]()
 
 ---
 
+## Start Here
+
+I run a weekly GRC intelligence sweep and publish the output here: case studies, a risk register, and an executive report. Every case follows the same six-file format and is mapped to framework controls (NIST, ISO, CIS, and for AI cases, the EU AI Act). New cases are added weekly. Three places to start:
+
+- Control mapping: [AWS IAM multi-tenant batch](./Case-studies/Cloud-Security/2026-09-AWS-Bulletin-IAM-MultiTenant-Batch/04_Control_Mapping.md)
+- Business-risk framing: [Cisco ISE authentication bypass](./Case-studies/Cloud-Security/2026-09-CISA-KEV-Cisco-ISE-AuthBypass/03_BIA.md)
+- AI governance: [EU AI Act Article 50 enforcement](./Case-studies/AI-Governance/2026-08-EU-AI-Act-Transparency-Enforcement/04_Control_Mapping.md)
+
+---
+
 ## What This Repository Is
 
-This is a working GRC intelligence program — not a study guide.
+This is a working GRC intelligence program, not a study guide.
 
-Every file here reflects how I approach real-world governance, risk, and compliance work: structured analysis, framework-mapped findings, and outputs built for decision-makers — not just compliance checkboxes.
+Every file here reflects how I approach real-world governance, risk, and compliance work: structured analysis, framework-mapped findings, and outputs built for decision-makers, not just compliance checkboxes.
 
-Seven years of enterprise GRC across FinTech, financial services, and healthcare taught me that the gap between a good security program and a reactive one is almost always an intelligence problem. Organizations that understand their risk posture in real time make better decisions. Those that find out during an audit don't.
+Ten years of enterprise GRC across FinTech, financial services, and healthcare taught me that the gap between a good security program and a reactive one is almost always an intelligence problem. Organizations that understand their risk posture in real time make better decisions. Those that find out during an audit don't.
 
-This repository is where I apply that thinking continuously — tracking live threat intelligence, running risk assessments against the frameworks that matter, and producing executive-grade outputs that connect technical findings to business risk.
+This repository is where I apply that thinking continuously: tracking live threat intelligence, running risk assessments against the frameworks that matter, and producing executive-grade outputs that connect technical findings to business risk.
 
 ---
 
@@ -43,7 +53,7 @@ GRC-case-studies/
 
 ---
 
-## Intelligence Program — How It Works
+## Intelligence Program: How It Works
 
 Every week this program runs a structured sweep across the following sources:
 
@@ -73,12 +83,12 @@ AI/ML and governance threats map to:
 
 The live risk register tracks every identified threat through the full lifecycle:
 
-- **Source** — where the intelligence came from
-- **Framework mapping** — which controls are implicated
-- **Likelihood × Impact scoring** — structured 5×5 methodology
-- **Inherent vs residual risk** — before and after controls
-- **Remediation** — specific actions with CIS Control references
-- **Status tracking** — Open / Mitigating / Closed / Accepted
+- **Source**: where the intelligence came from
+- **Framework mapping**: which controls are implicated
+- **Likelihood × Impact scoring**: structured 5×5 methodology
+- **Inherent vs residual risk**: before and after controls
+- **Remediation**: specific actions with CIS Control references
+- **Status tracking**: Open / Mitigating / Closed / Accepted
 
 **Risk Rating Scale:**
 
@@ -95,42 +105,42 @@ The live risk register tracks every identified threat through the full lifecycle
 
 Each case study follows a standard structure:
 
-1. **Incident Summary** — what happened and when
-2. **Technical Analysis** — root cause, attack vector, affected systems
-3. **Framework Impact** — which controls failed or were absent
-4. **Risk Model Implications** — how this challenges existing risk assumptions
-5. **AI / Emerging Threat Angle** — where applicable
-6. **Recommended Controls** — specific, framework-referenced remediation
-7. **Executive Summary** — board-level takeaway in plain language
+1. **Incident Summary**: what happened and when
+2. **Technical Analysis**: root cause, attack vector, affected systems
+3. **Framework Impact**: which controls failed or were absent
+4. **Risk Model Implications**: how this challenges existing risk assumptions
+5. **AI / Emerging Threat Angle**: where applicable
+6. **Recommended Controls**: specific, framework-referenced remediation
+7. **Executive Summary**: board-level takeaway in plain language
 
 ### Published Case Studies
 
-31 unique case studies published to date, organized by threat category:
+54 unique case studies published as of 2026-09-30, organized by threat category. Some are weekly batches that cover several related CVEs.
 
 | Category | Case Studies | Frameworks |
 |---|---|---|
-| [IT-OT-Threats](./Case-studies/IT-OT-Threats) | 22 | NIST CSF, NIST 800-53, CIS Controls, IEC 62443 |
-| [Cloud-Security](./Case-studies/Cloud-Security) | 8 | NIST CSF, NIST 800-53, CIS Control 7 |
-| [AI-Governance](./Case-studies/AI-Governance) | 5 | NIST AI RMF, ISO 42001, EU AI Act |
+| [IT-OT-Threats](./Case-studies/IT-OT-Threats) | 33 | NIST CSF, NIST 800-53, CIS Controls, IEC 62443 |
+| [Cloud-Security](./Case-studies/Cloud-Security) | 21 | NIST CSF, NIST 800-53, CIS Control 7 |
+| [AI-Governance](./Case-studies/AI-Governance) | 12 | NIST AI RMF, ISO 42001, EU AI Act |
 | [Financial-Services](./Case-studies/Financial-Services) | 1 | NIST 800-53, GLBA, SOX, SEC Cybersecurity Rules |
 
-*5 cases (Oracle PeopleSoft, LiteLLM AI Gateway, MSRC Patch Tuesday Wormable Kernel, Langflow AI Agent Platform, Langflow ExecGlobals RCE) are intentionally cross-filed under two categories per the program's multi-category duplication policy — each carries its own documented rationale rather than being an accidental copy. Folder counts above include both filings; the 31 figure is the unique-case count. New case studies added weekly as part of the intelligence monitoring cycle.*
+*13 cases are intentionally cross-filed under two categories per the program's multi-category duplication policy, so the folder counts above add up to 67 while the unique count is 54. The cross-filed cases include Oracle PeopleSoft, LiteLLM AI Gateway, MSRC Patch Tuesday Wormable Kernel, Langflow, Cisco ISE, and the MCP server batches. Each one notes its dual filing in its own README. New case studies are added weekly as part of the intelligence monitoring cycle.*
 
-<!-- Featured Case Studies — last manually reviewed: 2026-08-03 -->
+<!-- Featured Case Studies — last manually reviewed: 2026-09-30 -->
 ### Featured Case Studies
 
 | Case Study | Date | Threat Category | Frameworks |
 |---|---|---|---|
-| [CISA KEV — Arista VeloCloud Orchestrator Unauthenticated Command Injection (CVSS 10.0)](./Case-studies/IT-OT-Threats/2026-08-CISA-KEV-Arista-VeloCloud-CommandInjection) | August 2026 | IT/OT — SD-WAN Management Plane | NIST CSF, NIST 800-53, ISO 27001, CIS Controls |
-| [EU AI Act — Article 50 Transparency Obligations Enter Active Enforcement](./Case-studies/AI-Governance/2026-08-EU-AI-Act-Transparency-Enforcement) | August 2026 | AI Governance — Regulatory | NIST AI RMF, ISO 42001, EU AI Act |
-| [CISA KEV — Oracle PeopleSoft Unauthenticated RCE (Zero-Day)](./Case-studies/Financial-Services/2026-06-CISA-KEV-Oracle-PeopleSoft) | June 2026 | Financial Services — ERP / Regulated Industry | NIST 800-53, SEC 4-day disclosure rule, GLBA |
-| [EU AI Act — High-Risk AI System Classification (Draft Guidelines)](./Case-studies/AI-Governance/2026-06-EU-AI-Act-HighRisk-Classification) | June 2026 | AI Governance — Regulatory | NIST AI RMF, ISO 42001, EU AI Act |
-| [AWS Bulletin — "Copy.fail" / "DirtyFrag" Linux Kernel LPE Family](./Case-studies/Cloud-Security/2026-06-AWS-Bulletin-Linux-Kernel-CopyFail) | June 2026 | Cloud Security — Platform Vulnerability | NIST CSF, NIST 800-53, CIS Control 7 |
-| [Cisco Catalyst SD-WAN Manager — Authenticated Command Injection (root)](./Case-studies/IT-OT-Threats/2026-06-CISA-KEV-Cisco-SDWAN) | June 2026 | IT/OT — Network Infrastructure | NIST CSF, NIST 800-53, CIS Controls |
-| [Cisco Catalyst SD-WAN Manager — Path Traversal (Root Escalation)](./Case-studies/IT-OT-Threats/2026-06-CISA-KEV-Cisco-SDWAN-PathTraversal) | June 2026 | IT/OT — Network Infrastructure | NIST CSF, NIST 800-53, CIS Controls |
-| [Microsoft Patch Tuesday — Wormable Windows Kernel RCE & HTTP.sys RCE](./Case-studies/IT-OT-Threats/2026-06-MSRC-PatchTuesday-WormableKernel) | June 2026 | IT/OT — Cross-Infrastructure | NIST CSF, NIST 800-53, CIS Controls |
+| [NIST NVD: Six MCP Server and AI-Agent Tooling CVEs (CVSS 8.1 to 9.8)](./Case-studies/AI-Governance/2026-09-NIST-NVD-MCP-Server-TrustBoundary-Batch) | September 2026 | AI Governance, Agent Tooling Trust Boundaries | NIST AI RMF, ISO 42001, NIST CSF, NIST 800-53, MITRE ATLAS |
+| [AWS Bulletin: SageMaker Python SDK Cleartext HMAC Key Exposure (CVE-2026-83551)](./Case-studies/AI-Governance/2026-09-AWS-Bulletin-SageMaker-HMACKeyExposure) | September 2026 | AI Governance, Multi-Tenant ML Platform | NIST AI RMF, ISO 42001, NIST CSF, NIST 800-53 |
+| [EU AI Act: Article 50 Transparency Obligations Enter Active Enforcement](./Case-studies/AI-Governance/2026-08-EU-AI-Act-Transparency-Enforcement) | August 2026 | AI Governance, Regulatory | NIST AI RMF, ISO 42001, EU AI Act |
+| [EU AI Act: High-Risk AI System Classification (Draft Guidelines)](./Case-studies/AI-Governance/2026-06-EU-AI-Act-HighRisk-Classification) | June 2026 | AI Governance, Regulatory | NIST AI RMF, ISO 42001, EU AI Act |
+| [AWS Bulletin: TEAM Privilege Assignment and EKS Network Policy Agent Isolation Bypass](./Case-studies/Cloud-Security/2026-09-AWS-Bulletin-IAM-MultiTenant-Batch) | September 2026 | Cloud Security, IAM and Multi-Tenant Isolation | NIST CSF, NIST 800-53, ISO 27001, CIS Controls |
+| [CISA KEV: Cisco ISE Unauthenticated Administrative Bypass (CVSS 10.0)](./Case-studies/Cloud-Security/2026-09-CISA-KEV-Cisco-ISE-AuthBypass) | September 2026 | Cloud Security, Identity Control Plane | NIST CSF, NIST 800-53, ISO 27001, CIS Controls |
+| [MSRC: Azure Cosmos DB Cross-Tenant Escape (CVE-2026-66803)](./Case-studies/Cloud-Security/2026-08-MSRC-Azure-CosmosDB-CrossTenantEscape) | August 2026 | Cloud Security, Azure Platform Vulnerability | NIST CSF, NIST 800-53, ISO 27001, CIS Controls |
+| [AWS Bulletin: "Copy.fail" / "DirtyFrag" Linux Kernel LPE Family](./Case-studies/Cloud-Security/2026-06-AWS-Bulletin-Linux-Kernel-CopyFail) | June 2026 | Cloud Security, Platform Vulnerability | NIST CSF, NIST 800-53, CIS Control 7 |
 
-*Full index of all 31 case studies is browsable directly in the [Case-studies](./Case-studies) folder by category.*
+*Every case study is browsable in the [Case-studies](./Case-studies) folder by category.*
 
 ---
 
@@ -138,13 +148,13 @@ Each case study follows a standard structure:
 
 Weekly intelligence runs produce a structured executive report containing:
 
-- Key Risk Indicators (KRIs) — current week vs prior week
+- Key Risk Indicators (KRIs): current week vs prior week
 - Top threats with business impact framing
-- AI Governance Watch — regulatory and threat developments
+- AI Governance Watch: regulatory and threat developments
 - Compliance posture across all mapped frameworks
 - Recommended executive actions with owners and timelines
 
-Reports are written for a CISO or board audience — technical findings translated into business risk language.
+Reports are written for a CISO or board audience, with technical findings translated into business risk language.
 
 ---
 
@@ -166,14 +176,14 @@ Reports are written for a CISO or board audience — technical findings translat
 
 ## About the Author
 
-**Blaise Kingko** — Senior Cloud GRC & Security Architect with 7+ years directing security strategy for $1B+ cloud portfolios.
+**Blaise Kingko**, Senior Cloud Security & GRC Architect with 10 years securing regulated environments across Tier-1 banking, fintech, and federal and healthcare consulting.
 
-Core expertise: AI Governance (ISO 42001, NIST AI RMF, EU AI Act) · Cloud Security Architecture (AWS, Azure, Zero Trust, CSPM) · Compliance-as-Code (Terraform, AWS Config) · Enterprise GRC (NIST 800-53, FedRAMP, SOC 2, ISO 27001)
+Core expertise: AI Governance (ISO 42001, NIST AI RMF, EU AI Act readiness) · Cloud Security Architecture (AWS, Azure, Zero Trust, CSPM) · Compliance-as-Code (Terraform, AWS Config) · Enterprise GRC (NIST 800-53, FedRAMP readiness, SOC 2, ISO 27001)
 
-Key outcomes: 40% reduction in IAM policy violations · 98% compliance baseline adherence · 60% reduction in manual audit toil · 45→14 day Time-to-Remediate improvement
+Key outcomes: 40% reduction in IAM policy violations across 500+ AWS accounts · 98% baseline adherence · 60% reduction in manual audit toil · critical time-to-remediate cut from 45 days to 14
 
-📧 bkberri52@gmail.com · 🔗 [linkedin.com/in/berrikingko](https://linkedin.com/in/berrikingko)
+bkberri52@gmail.com · [linkedin.com/in/bk-lakeville](https://linkedin.com/in/bk-lakeville)
 
 ---
 
-*This repository is actively maintained. Content reflects current threat intelligence and framework guidance as of the date of each commit.*
+*Updated weekly. Each case reflects threat intelligence and framework guidance as of its listed date. README last reviewed 2026-09-30.*

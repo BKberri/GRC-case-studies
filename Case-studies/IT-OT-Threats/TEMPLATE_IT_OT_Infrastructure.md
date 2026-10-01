@@ -1,5 +1,5 @@
-# [INCIDENT TITLE] — IT/OT Infrastructure Case Study
-> **Example title format:** `CISA KEV — Siemens S7 PLC Remote Code Execution | ICS/SCADA Risk Analysis`
+# [INCIDENT TITLE]: IT/OT Infrastructure Case Study
+> **Example title format:** `CISA KEV: Siemens S7 PLC Remote Code Execution | ICS/SCADA Risk Analysis`
 
 ---
 
@@ -11,9 +11,9 @@
 | **Date Published** | [YYYY-MM-DD] |
 | **Incident Date** | [YYYY-MM-DD or Month YYYY] |
 | **Author** | Blaise Kingko |
-| **Threat Category** | IT/OT — [Network / ICS / SCADA / Endpoint / Industrial] |
+| **Threat Category** | IT/OT: [Network / ICS / SCADA / Endpoint / Industrial] |
 | **CVE / Advisory ID** | [CVE-XXXX-XXXXX or CISA Advisory AA-XX-XXX] |
-| **CVSS Score** | [X.X — Critical / High / Medium] |
+| **CVSS Score** | [X.X: Critical / High / Medium] |
 | **Affected Vendor** | [Vendor name] |
 | **Affected Product** | [Product name and version] |
 | **Intelligence Source** | [CISA KEV / US-CERT / NIST NVD / Internal] |
@@ -24,7 +24,7 @@
 ## 1. Incident Summary
 
 ### 1.1 What Happened
-*2–3 sentences. State the facts: what vulnerability or incident, which systems, what impact. No jargon in this section — write for a non-technical reader.*
+*2–3 sentences. State the facts: what vulnerability or incident, which systems, what impact. No jargon in this section: write for a non-technical reader.*
 
 [Insert plain-language summary here]
 
@@ -59,10 +59,10 @@
 ### 2.2 Attack Chain
 *Walk through how an attacker would exploit this vulnerability step by step. Reference MITRE ATT&CK technique IDs where applicable.*
 
-1. **Initial Access** — [How attacker gains entry — ATT&CK T####]
-2. **Execution** — [How the exploit runs — ATT&CK T####]
-3. **Persistence** (if applicable) — [How attacker maintains access — ATT&CK T####]
-4. **Impact** — [What the attacker achieves — ATT&CK T####]
+1. **Initial Access**: [How attacker gains entry: ATT&CK T####]
+2. **Execution**: [How the exploit runs: ATT&CK T####]
+3. **Persistence** (if applicable): [How attacker maintains access: ATT&CK T####]
+4. **Impact**: [What the attacker achieves: ATT&CK T####]
 
 ### 2.3 IT/OT Convergence Risk
 *This section is specific to IT/OT case studies. Explain how this vulnerability bridges the IT and OT environments and why that convergence creates elevated risk.*
@@ -125,8 +125,8 @@
 
 | Dimension | Score | Rationale |
 |---|---|---|
-| **Likelihood** | [1–5] | [Why this score — exploitation status, attacker capability, prevalence] |
-| **Impact** | [1–5] | [Why this score — data sensitivity, operational impact, recovery complexity] |
+| **Likelihood** | [1–5] | [Why this score: exploitation status, attacker capability, prevalence] |
+| **Impact** | [1–5] | [Why this score: data sensitivity, operational impact, recovery complexity] |
 | **Risk Score** | [L × I] | [Calculated score] |
 | **Risk Rating** | [Critical / High / Medium / Low] | [Based on score: 20-25=Critical, 10-19=High, 5-9=Medium, 1-4=Low] |
 
@@ -156,7 +156,7 @@
 ### 5.1 How This Challenges Traditional Risk Models
 *This is the analytical core of the case study. Explain specifically how this incident exposes gaps in conventional GRC thinking.*
 
-[Insert analysis — 2–4 paragraphs. Be specific. Reference the Purdue Model, IEC 62443, or other OT security frameworks where applicable.]
+[Insert analysis: 2–4 paragraphs. Be specific. Reference the Purdue Model, IEC 62443, or other OT security frameworks where applicable.]
 
 ### 5.2 Where Traditional Controls Break Down
 *What controls organizations typically rely on that this incident demonstrates are insufficient?*
@@ -168,7 +168,7 @@
 ### 5.3 Emerging Risk Pattern
 *Is this incident part of a broader pattern? Connect it to the threat landscape.*
 
-[Insert pattern analysis — e.g., increasing targeting of ICS by nation-state actors, growing IT/OT convergence risk, supply chain vectors into OT environments]
+[Insert pattern analysis: e.g., increasing targeting of ICS by nation-state actors, growing IT/OT convergence risk, supply chain vectors into OT environments]
 
 ---
 
@@ -178,7 +178,7 @@
 
 | Action | Owner | Framework Reference | Priority |
 |---|---|---|---|
-| [Specific action — e.g., Apply vendor patch X to affected systems] | [CISO / SOC / OT Team] | NIST 800-53: SI-2 \| CIS Control 7.4 | 🔴 Critical |
+| [Specific action: e.g., Apply vendor patch X to affected systems] | [CISO / SOC / OT Team] | NIST 800-53: SI-2 \| CIS Control 7.4 | 🔴 Critical |
 | [Specific action] | [Owner] | [Framework ref] | 🔴 Critical |
 | [Specific action] | [Owner] | [Framework ref] | 🟠 High |
 
@@ -209,16 +209,16 @@
 
 ## 7. Executive Summary
 
-*Write this section last. Maximum one page. Plain English — no technical jargon. Assume the reader is a board member or C-suite executive with no security background.*
+*Write this section last. Maximum one page. Plain English: no technical jargon. Assume the reader is a board member or C-suite executive with no security background.*
 
 ### The Situation
 [2–3 sentences: What happened, what systems are affected, what is the business risk]
 
 ### The Risk to Us
-[2–3 sentences: Why this matters specifically to the organization — revenue, operations, safety, regulatory]
+[2–3 sentences: Why this matters specifically to the organization: revenue, operations, safety, regulatory]
 
 ### What We Are Doing
-[2–3 sentences: Immediate actions taken or recommended — specific, not vague]
+[2–3 sentences: Immediate actions taken or recommended: specific, not vague]
 
 ### What We Need From Leadership
 [1–2 sentences: Any decisions, resources, or escalations required from the executive team]
@@ -246,5 +246,5 @@
 
 ---
 
-*Case Study Template v1.0 — Blaise Kingko GRC Intelligence Program*
+*Case Study Template v1.0: Blaise Kingko GRC Intelligence Program*
 *Framework References: NIST CSF 2.0 | NIST SP 800-53 Rev 5 | ISO 27001:2022 | CIS Controls v8 | IEC 62443*
