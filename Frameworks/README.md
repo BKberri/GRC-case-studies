@@ -114,12 +114,14 @@ an organizational governance and risk management discipline — not just a techn
 | Field | Details |
 |---|---|
 | **Issuing Body** | General Services Administration (GSA) / Joint Authorization Board |
-| **Current Version** | FedRAMP Rev 5 — aligned to NIST 800-53 Rev 5 |
+| **Current Version** | FedRAMP Rev 5 (Classes D/High) and FedRAMP 20x (Classes A-C) — see CR26 note below |
 | **URL** | https://www.fedramp.gov |
 | **Domain** | Cloud service security authorization for US federal government |
-| **Structure** | Low / Moderate / High impact baselines derived from NIST 800-53 |
+| **Structure** | Low / Moderate / High impact baselines derived from NIST 800-53 (Rev 5 track); Key Security Indicators (KSIs) and machine-readable evidence (FedRAMP 20x track) |
 | **Use in This Program** | Referenced for cloud findings affecting federal or regulated environments |
 | **Who Uses It** | Cloud service providers seeking federal authorization; federal agencies |
+
+**FedRAMP 20x / CR26 (added 2026-10-12):** CR26 went live 2026-10-06, replacing narrative System Security Plan documentation with Key Security Indicators (KSIs) and machine-readable evidence for authorization Classes A through C; Class D (High impact) remains on the traditional Rev 5 process pending a 2027 pilot of the 20x model. This is an operational modernization of the existing FedRAMP program, not a separate framework, and is noted here because it changes what "FedRAMP-mapped" evidence looks like for any Class A-C cloud finding this program logs going forward.
 
 ---
 
@@ -332,5 +334,5 @@ CISA KEV      →  Actively exploited vulnerabilities
 
 ---
 
-*Framework Reference Map v1.1 — Blaise Kingko GRC Intelligence Program*  
-*Last Updated: 2026-08-03 — added Healthcare Compliance Frameworks section (HIPAA Security Rule)*
+*Framework Reference Map v1.2 — Blaise Kingko GRC Intelligence Program*  
+*Last Updated: 2026-10-12 — updated FedRAMP entry to reflect the FedRAMP 20x/CR26 modernization (Key Security Indicators and machine-readable evidence for Classes A-C)*
